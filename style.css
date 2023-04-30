@@ -1,6 +1,6 @@
 .container{
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 3fr;
   grid-template-rows: 1fr 4fr;
 }
 
@@ -19,4 +19,18 @@
 .icon{
   width: 2rem;
   height: 2rem;
+}
+
+.top-sidebar > div,
+.middle-sidebar > div,
+.bottom-sidebar > div{
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  align-items: center;
+}
+
+.top-sidebar div > :first-child,
+.middle-sidebar div > :first-child,
+.bottom-sidebar div > :first-child{
+  justify-self: center;
 }
