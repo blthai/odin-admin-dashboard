@@ -9,6 +9,11 @@
   grid-column: 1/2;
   display: grid;
   row-gap: 4rem;
+  background-color: #1992d4;
+}
+
+.sidebar div{
+  color: white;
 }
 
 .dashboard-icon{
