@@ -167,5 +167,5 @@ button{
 .content-body{
   grid-row: 2 / -1;
   grid-column: 2 / 3;
-  background-color: rgb(202, 202, 202);
+  background-color: rgba(223, 228, 233, 0.829);
 }
