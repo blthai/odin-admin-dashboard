@@ -57,7 +57,14 @@ html{
   grid-template-columns: 2fr 1fr;
 }
 
-
+input[type='search']{
+  width: 80rem;
+  height: 3rem;
+  border-radius: 24px;
+  border: none;
+  background-color: rgba(223, 228, 233, 0.829);
+  padding-left: 16px;
+}
 
 .bottom-headbar{
  grid-row: 2 / 3;
