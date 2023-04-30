@@ -43,4 +43,18 @@
 .headbar{
   grid-column: 2 / 3;
   grid-row: 1 / 2;
+  display: grid;
+  grid-template-rows: .3fr .7fr;
+}
+
+.top-headbar{
+  grid-row: 1 / 2;
+}
+
+.bottom-headbar{
+ grid-row: 2 / 3;
+}
+.profile-headbar{
+  height: 4rem;
+  width: 4rem;
 }
