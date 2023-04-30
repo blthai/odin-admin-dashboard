@@ -93,7 +93,7 @@ h1{
 }
 
 input[type='search']{
-  width: 75rem;
+  width: 90rem;
   height: 3rem;
   border-radius: 24px;
   border: none;
@@ -107,7 +107,7 @@ input[type='search']{
 
   align-items: center;
   justify-items: start;
-  grid-template-columns: 7rem 10rem 7rem;
+  grid-template-columns: 7rem 10rem 10rem;
 }
 
 .bottom-headbar{
@@ -121,4 +121,5 @@ input[type='search']{
 .name-headbar{
   font-size: 1.5rem;
   font-weight: bold;
+
 }
