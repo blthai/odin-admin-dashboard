@@ -104,22 +104,39 @@ input[type='search']{
 .top-headbar .right-headbar{
   display: grid;
   justify-self: center;
-
   align-items: center;
   justify-items: start;
-  grid-template-columns: 7rem 10rem 10rem;
+  grid-template-columns: 7rem 9rem 10rem;
 }
 
-.bottom-headbar{
- grid-row: 2 / 3;
-}
-.profile-headbar{
+.profile-top-headbar{
   height: 6.4rem;
   width: 6.4rem;
 }
 
+.bottom-headbar{
+ grid-row: 2 / 3;
+ display: grid;
+ grid-template-columns: 2fr 1fr;
+}
+
+.profile-bottom-headbar{
+  height: 11rem;
+  width: 11rem;
+}
+
+
 .name-headbar{
   font-size: 1.5rem;
   font-weight: bold;
+}
 
+button{
+  background-color: #1992d4;
+  width: 9rem;
+  height: 3.6rem;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 128px;
 }
