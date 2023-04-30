@@ -39,3 +39,8 @@
 .bottom-sidebar div > :first-child{
   justify-self: center;
 }
+
+.headbar{
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
