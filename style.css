@@ -13,7 +13,7 @@ body{
 .container{
   display: grid;
   grid-template-columns: 30rem 3fr;
-  grid-template-rows: 1fr 4fr;
+  grid-template-rows: .8fr 4fr;
   min-height: 100vh;
 }
 
@@ -73,6 +73,7 @@ h1{
   grid-row: 1 / 2;
   display: grid;
   grid-template-rows: .3fr .6fr;
+  box-shadow: 0px 6px 12px -10px;
 }
 
 .top-headbar{
@@ -120,7 +121,6 @@ input[type='search']{
  grid-template-columns: 18rem 2fr 1fr;
  align-items: center;
  padding-top: 16px;
- box-shadow: 0px 6px 12px -10px;
 }
 
 .profile-bottom-headbar{
@@ -162,4 +162,10 @@ button{
   font-weight: bold;
   border: none;
   border-radius: 128px;
+}
+
+.content-body{
+  grid-row: 2 / -1;
+  grid-column: 2 / 3;
+  background-color: rgb(202, 202, 202);
 }
