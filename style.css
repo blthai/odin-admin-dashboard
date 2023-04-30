@@ -117,9 +117,10 @@ input[type='search']{
 .bottom-headbar{
  grid-row: 2 / 3;
  display: grid;
- grid-template-columns: 20rem 2fr 1fr;
+ grid-template-columns: 18rem 2fr 1fr;
  align-items: center;
- padding-bottom: 32px;
+ padding-top: 16px;
+ box-shadow: 0px 6px 12px -10px;
 }
 
 .profile-bottom-headbar{
@@ -132,6 +133,12 @@ input[type='search']{
 .name-headbar{
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.greeting{
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-bottom: 0;
 }
 
 .user-handle{
