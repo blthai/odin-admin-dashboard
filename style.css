@@ -4,6 +4,17 @@
   grid-template-rows: 1fr 4fr;
 }
 
+.sidebar{
+  grid-row: 1/-1;
+  grid-column: 1/2;
+  display: grid;
+  row-gap: 4rem;
+}
+
+.dashboard-icon{
+  width: 4rem;
+  height: 4rem;
+}
 
 .icon{
   width: 2rem;
