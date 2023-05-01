@@ -104,10 +104,11 @@ input[type='search']{
 
 .top-headbar .right-headbar{
   display: grid;
-  justify-self: center;
+  justify-self: end;
   align-items: center;
   justify-items: start;
   grid-template-columns: 7rem 9rem 10rem;
+  padding-right: 8rem;
 }
 
 .profile-top-headbar{
@@ -149,7 +150,7 @@ input[type='search']{
 
 .buttons{
   display: grid;
-  justify-self: start;
+  justify-self: center;
   justify-items: center;
   grid-template-columns: 12rem 12rem 12rem;
 }
@@ -168,4 +169,7 @@ button{
   grid-row: 2 / -1;
   grid-column: 2 / 3;
   background-color: rgba(223, 228, 233, 0.829);
+  display: grid;
+
 }
+
