@@ -149,15 +149,15 @@ input[type='search']{
 
 .buttons{
   display: grid;
-  justify-self: center;
+  justify-self: start;
   justify-items: center;
   grid-template-columns: 12rem 12rem 12rem;
 }
 
 button{
   background-color: #1992d4;
-  width: 9rem;
-  height: 3.6rem;
+  width: 9.4rem;
+  height: 4rem;
   color: white;
   font-weight: bold;
   border: none;
