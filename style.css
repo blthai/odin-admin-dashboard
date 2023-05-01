@@ -170,6 +170,38 @@ button{
   grid-column: 2 / 3;
   background-color: rgba(223, 228, 233, 0.829);
   display: grid;
-
+  grid-template-columns: .7fr .3fr;
 }
 
+.projects{
+  display: grid;
+  padding-left: 4rem;
+  padding-top: 2rem;
+  grid-template-rows: 4rem 1fr;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 40rem);
+  grid-template-rows: repeat(3,1fr);
+  gap: 5rem;
+}
+
+.card{
+  border-left: rgba(240,180,41) .7rem solid;
+  background-color: white;
+  border-radius: 8px;
+  padding: 12px;
+  height: 20rem;
+  width: 35rem;
+}
+
+.project-title{
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.project-description{
+  color: rgba(134,134,134);
+  font-size: 1.2rem;
+}
