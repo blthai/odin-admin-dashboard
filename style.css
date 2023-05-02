@@ -112,7 +112,7 @@ input[type='search']{
   padding-right: 8rem;
 }
 
-.profile-top-headbar{
+.mini-profile{
   height: 6.4rem;
   width: 6.4rem;
 }
@@ -173,12 +173,12 @@ button{
   display: grid;
   grid-template-columns: .75fr .25fr;
   padding-bottom: 60px;
+  padding-top: 2rem;
 }
 
 .projects{
   display: grid;
   padding-left: 4rem;
-  padding-top: 2rem;
   grid-template-rows: 4rem 1fr;
   overflow: auto;
 }
@@ -212,4 +212,9 @@ h2{
 .project-description{
   color: rgba(134,134,134);
   font-size: 1.2rem;
+}
+
+.recommended-content{
+  display: grid;
+
 }
