@@ -216,5 +216,20 @@ h2{
 
 .recommended-content{
   display: grid;
+  padding-right: 32px;
+  padding-left: 16px;
+}
 
+.announcements-card{
+  background-color: white;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0px 6px 12px -10px, 6px 0px 12px -10px;
+}
+
+.trending-card{
+  background-color: white;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0px 6px 12px -10px, 6px 0px 12px -10px;
 }
