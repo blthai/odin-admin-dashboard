@@ -171,7 +171,8 @@ button{
   grid-column: 2 / 3;
   background-color: rgba(223, 228, 233, 0.829);
   display: grid;
-  grid-template-columns: .7fr .3fr;
+  grid-template-columns: .75fr .25fr;
+  padding-bottom: 60px;
 }
 
 .projects{
