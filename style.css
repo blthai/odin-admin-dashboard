@@ -218,6 +218,7 @@ h2{
   display: grid;
   padding-right: 32px;
   padding-left: 16px;
+  grid-template-rows: 56rem 56rem;
 }
 
 .announcements-card{
@@ -233,6 +234,7 @@ h2{
 
 .announcement p{
   color: rgba(134,134,134);
+  font-size: 1.2rem;
 }
 
 h3{
@@ -242,7 +244,7 @@ h3{
 }
 
 .announcement-divider{
-  width: 36.4rem;
+  width: 30.4rem;
   height: .1rem;
   background-color: rgba(0, 0, 0, .2);
 }
@@ -256,6 +258,7 @@ h3{
 
 .trending-card,
 .announcements-card{
-  width: 35rem;
+  width: 30rem;
+  height: 35rem;
 }
 
