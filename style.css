@@ -227,6 +227,26 @@ h2{
   box-shadow: 0px 6px 12px -10px, 6px 0px 12px -10px;
 }
 
+.announcement{
+  padding-left: .5rem;
+}
+
+.announcement p{
+  color: rgba(134,134,134);
+}
+
+h3{
+  font-size: 1.4rem;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.announcement-divider{
+  width: 36.4rem;
+  height: .1rem;
+  background-color: rgba(0, 0, 0, .2);
+}
+
 .trending-card{
   background-color: white;
   border-radius: 8px;
@@ -238,3 +258,4 @@ h2{
 .announcements-card{
   width: 35rem;
 }
+
