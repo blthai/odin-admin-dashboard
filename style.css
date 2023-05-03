@@ -12,7 +12,7 @@ body{
 
 .container{
   display: grid;
-  grid-template-columns: 30rem 3fr;
+  grid-template-columns: 30rem 1fr;
   grid-template-rows: 20rem 1fr;
   min-height: 100vh;
 }
@@ -171,7 +171,7 @@ button{
   grid-column: 2 / 3;
   background-color: rgba(223, 228, 233, 0.829);
   display: grid;
-  grid-template-columns: .75fr .25fr;
+  grid-template-columns: 3fr 1fr;
   padding-bottom: 60px;
   padding-top: 2rem;
 }
@@ -224,6 +224,7 @@ h2{
   padding-right: 32px;
   padding-left: 16px;
   grid-template-rows: 56rem 56rem;
+  justify-self: center;
 }
 
 .announcements-card{
